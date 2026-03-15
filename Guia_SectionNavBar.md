@@ -5,7 +5,9 @@
 
 **Descripción:** Genera automáticamente una barra de navegación visual en la parte superior de cada diapositiva. La barra muestra todas las secciones definidas como formas de chevron (flecha) enlazadas, permitiendo saltar directamente a cualquier sección durante la presentación.
 
-**Última versión disponible:** [Link a sharepoint](https://berso.sharepoint.com/sites/msteams_cc085a/_layouts/15/guestaccess.aspx?share=IgBgOPCuF1dISbJBVcR70cTSAdJ6x4JzUjjhIh3DBjilxfA&e=av4wcS)
+**Última versión disponible:** 
+[Link github](https://github.com/rubo88/indice_slides/blob/main/SectionNavBar.ppam) 
+[Link a sharepoint](https://berso.sharepoint.com/sites/msteams_cc085a/_layouts/15/guestaccess.aspx?share=IgBgOPCuF1dISbJBVcR70cTSAdJ6x4JzUjjhIh3DBjilxfA&e=av4wcS)
 
 **Fecha de última actualización:** 10/03/2026
 
