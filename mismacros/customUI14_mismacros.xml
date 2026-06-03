@@ -1,0 +1,42 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="tabMisMacros" label="Mis Macros">
+        <group id="grpSeries" label="Series de Gráficos">
+          <button id="btnChangeFormulaActive"
+                  label="Reemplazar en Activo"
+                  onAction="RibbonChangeSeriesFormula"
+                  imageMso="ChartTypeAllInsert"
+                  size="large"
+                  screentip="Reemplazar texto en fórmulas — Gráfico Activo"
+                  supertip="Busca y reemplaza un texto en las fórmulas de series del gráfico activo." />
+          <button id="btnChangeFormulaAll"
+                  label="Reemplazar en Todos"
+                  onAction="RibbonChangeSeriesFormulaAllCharts"
+                  imageMso="ChartStyleGallery"
+                  size="large"
+                  screentip="Reemplazar texto en fórmulas — Todos los Gráficos"
+                  supertip="Busca y reemplaza un texto en las fórmulas de series de todos los gráficos de la hoja activa." />
+        </group>
+        <group id="grpHojas" label="Hojas">
+          <button id="btnDuplicateSheets"
+                  label="Duplicar Hoja"
+                  onAction="RibbonDuplicateCurrentSheetMultipleTimes"
+                  imageMso="SheetInsert"
+                  size="large"
+                  screentip="Duplicar Hoja Múltiples Veces"
+                  supertip="Duplica la hoja activa usando los nombres de la columna A de la hoja 'SheetNames'." />
+        </group>
+        <group id="grpUtilidades" label="Utilidades">
+          <button id="btnCopyPasteAbsolute"
+                  label="Copiar/Pegar Absoluto"
+                  onAction="RibbonCopy_paste_absolute"
+                  imageMso="PasteSpecialDialog"
+                  size="large"
+                  screentip="Copiar y Pegar Preservando Referencias"
+                  supertip="Copia las celdas seleccionadas a un destino manteniendo las referencias absolutas (sin cambiar las fórmulas)." />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
